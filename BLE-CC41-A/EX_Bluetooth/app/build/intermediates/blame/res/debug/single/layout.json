@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\BLE-CC41-A\\EX_Bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\BLE-CC41-A\\EX_Bluetooth\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\BLE-CC41-A\\EX_Bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\layout\\device_name.xml",
+        "source": "C:\\BLE-CC41-A\\EX_Bluetooth\\app\\src\\main\\res\\layout\\device_name.xml"
+    },
+    {
+        "merged": "C:\\BLE-CC41-A\\EX_Bluetooth\\app\\build\\intermediates\\res\\merged\\debug\\layout\\device_list.xml",
+        "source": "C:\\BLE-CC41-A\\EX_Bluetooth\\app\\src\\main\\res\\layout\\device_list.xml"
+    }
+]

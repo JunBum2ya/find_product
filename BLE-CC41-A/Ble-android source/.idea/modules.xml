@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BleCommunication/BleCommunication.iml" filepath="$PROJECT_DIR$/BleCommunication/BleCommunication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BleTerminal/BleTerminal.iml" filepath="$PROJECT_DIR$/BleTerminal/BleTerminal.iml" />
+    </modules>
+  </component>
+</project>

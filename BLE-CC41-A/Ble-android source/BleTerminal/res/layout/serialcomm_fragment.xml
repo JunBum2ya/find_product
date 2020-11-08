@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$DummySectionFragment" >
+
+    <LinearLayout
+        android:id="@+id/InputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <ToggleButton
+                android:id="@+id/tbEcho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="OnEchoToggle"
+                android:textOff="Echo"
+                android:textOn="Echo" />
+
+            <ToggleButton
+                android:id="@+id/tbEnter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="OnEnterToggle"
+                android:textOff="Enter"
+                android:textOn="Enter" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <EditText
+                android:id="@+id/edtMessage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="10"
+                android:textSize="16dp" >
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/btnSendMessage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="OnSendMessage"
+                android:text="Send"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvLogbox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/InputLayout"
+        android:background="@drawable/radialback"
+        android:textColor="#ff000000" />
+
+</RelativeLayout>

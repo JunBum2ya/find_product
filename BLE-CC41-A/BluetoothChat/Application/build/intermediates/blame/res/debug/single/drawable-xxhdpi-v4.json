@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\BLE-CC41-A\\BluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_action_device_access_bluetooth_searching.png",
+        "source": "C:\\BLE-CC41-A\\BluetoothChat\\Application\\src\\main\\res\\drawable-xxhdpi\\ic_action_device_access_bluetooth_searching.png"
+    },
+    {
+        "merged": "C:\\BLE-CC41-A\\BluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\BLE-CC41-A\\BluetoothChat\\Application\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    }
+]

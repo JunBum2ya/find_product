@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.perples.recosample.MainActivity"
+    android:id="@+id/mainLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="로그인"
+        android:id="@+id/LoginTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_alignTop="@+id/IDtextView"
+        android:layout_alignEnd="@+id/radioButton1"
+        android:layout_toEndOf="@+id/LoginTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ID"
+        android:id="@+id/IDtextView"
+        android:layout_below="@+id/LoginTextView"
+        android:layout_toStartOf="@+id/Accessbutton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Password"
+        android:id="@+id/PasswordtextView"
+        android:layout_below="@+id/editText"
+        android:layout_toStartOf="@+id/editText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_alignTop="@+id/PasswordtextView"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_toEndOf="@+id/PasswordtextView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로그인"
+        android:id="@+id/Accessbutton"
+        android:layout_below="@+id/editText2"
+        android:layout_toStartOf="@+id/editText2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="취소"
+        android:id="@+id/clearbutton"
+        android:layout_alignBottom="@+id/Accessbutton"
+        android:layout_alignEnd="@+id/editText2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="지갑"
+        android:id="@+id/OnetextView"
+        android:layout_below="@+id/Accessbutton"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ItemeditText1"
+        android:layout_alignTop="@+id/OnetextView"
+        android:layout_alignEnd="@+id/Accessbutton"
+        android:layout_toEndOf="@+id/OnetextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="알람시간 :"
+        android:id="@+id/OnetimetextView"
+        android:layout_below="@+id/ItemeditText1"
+        android:layout_alignEnd="@+id/ItemeditText1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:layout_below="@+id/radioButton1"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/ItemeditText1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="시계"
+        android:id="@+id/TwotextView"
+        android:layout_below="@+id/editText4"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ItemeditText2"
+        android:layout_alignTop="@+id/TwotextView"
+        android:layout_alignEnd="@+id/OnetimetextView"
+        android:layout_toEndOf="@+id/TwotextView" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알람유무"
+        android:id="@+id/radioButton2"
+        android:layout_alignBottom="@+id/ItemeditText2"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="알람시간"
+        android:id="@+id/TwotimetextView"
+        android:layout_below="@+id/ItemeditText2"
+        android:layout_alignEnd="@+id/ItemeditText2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText6"
+        android:layout_below="@+id/radioButton2"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/TwotimetextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="노트북"
+        android:id="@+id/ThreetextView"
+        android:layout_below="@+id/editText6"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ItemeditText3"
+        android:layout_below="@+id/editText6"
+        android:layout_alignEnd="@+id/ItemeditText2"
+        android:layout_toEndOf="@+id/ThreetextView" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알람유무"
+        android:id="@+id/radioButton3"
+        android:layout_alignBottom="@+id/ItemeditText3"
+        android:layout_alignEnd="@+id/editText6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="알람시간"
+        android:id="@+id/ThreetimetextView"
+        android:layout_below="@+id/ItemeditText3"
+        android:layout_alignEnd="@+id/ItemeditText3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText8"
+        android:layout_below="@+id/ThreetimetextView"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/ThreetimetextView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="물품추가"
+        android:id="@+id/Addbutton"
+        android:layout_alignBottom="@+id/editText8"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알람유무"
+        android:id="@+id/radioButton1"
+        android:layout_alignBottom="@+id/ItemeditText1"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

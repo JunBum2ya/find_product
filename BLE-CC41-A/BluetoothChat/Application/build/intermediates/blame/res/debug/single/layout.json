@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\BLE-CC41-A\\BluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\message.xml",
+        "source": "C:\\BLE-CC41-A\\BluetoothChat\\Application\\src\\main\\res\\layout\\message.xml"
+    },
+    {
+        "merged": "C:\\BLE-CC41-A\\BluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bluetooth_chat.xml",
+        "source": "C:\\BLE-CC41-A\\BluetoothChat\\Application\\src\\main\\res\\layout\\fragment_bluetooth_chat.xml"
+    },
+    {
+        "merged": "C:\\BLE-CC41-A\\BluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\device_name.xml",
+        "source": "C:\\BLE-CC41-A\\BluetoothChat\\Application\\src\\main\\res\\layout\\device_name.xml"
+    },
+    {
+        "merged": "C:\\BLE-CC41-A\\BluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device_list.xml",
+        "source": "C:\\BLE-CC41-A\\BluetoothChat\\Application\\src\\main\\res\\layout\\activity_device_list.xml"
+    },
+    {
+        "merged": "C:\\BLE-CC41-A\\BluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\BLE-CC41-A\\BluetoothChat\\Application\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

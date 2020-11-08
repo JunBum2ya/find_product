@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="blecommunication">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BleCommunication/bin/blecommunication.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
